@@ -2,9 +2,13 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+//id generator
+const uuid = require('./helpers/uuid.js');
+
+const noteData = require("./db/db.json");
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = 3001; //process.env.PORT || 
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));
