@@ -2,19 +2,20 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+
+const app = express();
+const PORT = process.env.PORT || 3001; 
+
 //id generator
 const uuid = require('./helpers/uuid.js');
 
-const noteData = require("./db/db.json");
-
-const app = express();
-const PORT = 3001; //process.env.PORT || 
+const noteData = require("./db/db.json"); 
 
 // Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-//Adds a static midleware to serve assets in Public folder
+//Static midleware to serve assets in Public folder
 app.use(express.static("public"));
 
 //Returns saved notes as JSON
