@@ -10,11 +10,12 @@ For this project, the application's front end starter code files were provided, 
 
 ## Usage
 
-![Deployed webpage](assets/images/)
+![Deployed webpage](public/assets/images/deployed_page.png)
 
 ## Credits
 
-Link to deployed application: 
+Link to deployed application: https://polar-hollows-15544.herokuapp.com/
+link to starter code: https://github.com/coding-boot-camp/miniature-eureka
 
 
 ## License
