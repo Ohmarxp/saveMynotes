@@ -13,7 +13,8 @@ This assignment main task is the creation of the back end for an application tha
 ## Credits
 
 Link to deployed application: https://polar-hollows-15544.herokuapp.com/
-link to starter code: https://github.com/coding-boot-camp/miniature-eureka
+
+Link to starter code: https://github.com/coding-boot-camp/miniature-eureka
 
 
 ## License
